@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+	<title>Front-end e suas 10 principais tecnologias</title>
+</head>
+
+<body class="elm">
+
+	<div class="area-principal">
+
+	<div id="cabecalho">
+		
+
+			<h1 class="cor">Front-end e suas 10 principais tecnologias</h1>
+
+		<div class="links">
+
+			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="html.html">HTML</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="css.html">CSS</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="javascript.html">Javascript</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="react.html">React</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="typescript.html">TypeScript</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a id="elm" href="elm.html">Elm</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="jquery.html">JQuery</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="angular.html">Angular</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="swift.html">Swift</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+			<a href="desenvolvedor.html">Desenvolvedor Front-End</a>
+		</div>
+	</div>
+			<div id="imagem-topo-elm">
+				<img src="imagens/elm.png">
+			
+			</div>
+	<p>
+	
+		<br><br><br><br><br><br>
+
+		<h3>Elm: programação funcional no front-end do jeito certo</h3><br><br>
+
+		
+
+		Para os que ainda conhecem pouco sobre Elm, podemos resumir assim:<br><br>
+		
+			“Elm é uma linguagem funcional, fortemente tipada e que compila para JavaScript, HTML e CSS.”<br><br>
+		
+		A ideia principal é trazer os benefícios (e garantias) da programação funcional para o front-end.<br><br>
+		
+		Elm não tenta ter nenhuma relação com o JavaScript, diferente das outras linguagens que são compiladas pra ele. É uma linguagem completamente distinta, com seu ecossistema próprio, e que por acaso precisa do JavaScript para poder rodar nos browsers.<br><br>
+		Vantagens<br><br>
+		
+		Um dos pontos mais falados pelos criadores da linguagem é que Elm não tem runtime exceptions. Se você conseguir compilar um código Elm, simplesmente você não terá erros em tempo de execução.<br><br>
+		
+		Ou seja, nunca mais você verá erros como esse:<br><br>
+		
+		Uncaught TypeError: undefined is not a function<br><br>
+		
+		E isso só é possível por causa de três características da linguagem:<br><br>
+		
+			Tipagem forte<br>
+			Imutabilidade<br>
+			Null e Undefined não existem<br><br>
+		
+		Compilador inteligente<br><br>
+		
+		Um dos pontos mais surpreendentes, principalmente para quem está acostumado com JavaScript, são as mensagens de erro do compilador. Eu nunca tinha visto algo parecido em nenhuma outra linguagem.<br><br>
+		
+		No exemplo abaixo nós cometemos um pequeno erro. Digitamos butto ao invés de button:<br><br>
+		
+		  view model = <br>
+			 div [] [ butto [ onClick Decrement ] [ text “-” ] ]<br><br>
+		
+		Repare na mensagem de erro que o compilador nos retorna e me diga que não é absolutamente fantástico:<br><br>
+		
+		Cannot find variable `butto` <br>
+		2| [ butto [ onClick Decrement ] [ text “-” ] <br>
+			 ^^^^^ <br>
+		Maybe you want one of the following? <br>
+		button <br>
+		Html.button<br><br>
+		
+		Ele não apenas nos disse exatamente onde estava o erro, como também sugeriu possíveis soluções.<br><br>
+		
+		Na talk abaixo, o Richard Feldman entra em mais detalhes sobre isso:
+		
+		<br><br>
+
+
+		Fonte: https://imasters.com.br/desenvolvimento/elm-programacao-funcional-no-front-end-do-jeito-certo
+	</p>
+
+</div>
+
+<div id="rodape">
+
+	Todos os direitos reservados
+</div>
+
+</body>
+</html>

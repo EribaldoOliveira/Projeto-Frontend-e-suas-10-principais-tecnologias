@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
+}
+
+body.home a#home,
+body.html a#html,
+body.css a#css,
+body.javascript a#javascript,
+body.react a#react,
+body.typescript a#typescript,
+body.elm a#elm,
+body.jquery a#jquery,
+body.angular a#Angular,
+body.swift a#swift,
+body.desenvolvedor a#desenvolvedor
+ {
+	color: orangered;
+	background: #fff;
+	cursor: text;
+	padding: 2px 15px 2px 15px;
+}
+
+#cabecalho {
+	background: greenyellow;
+	padding-top: 30px;
+}
+
+#imagem {
+	background: url(..imagens/front-end.jpg);
+	width: 500%;
+	margin-bottom: 350px;
+	margin-left: 380px;
+}
+
+#imagem-topo {
+	width: 200%;
+	margin-left: 500px ;
+}
+
+#imagem-topo-dev {
+	width: 400%;
+	margin-left: 400px ;
+}
+
+#imagem-topo-react {
+	width: 400%;
+	margin-top: -30px;
+	margin-left: 400px ;
+	margin-bottom: 50px;
+}
+
+#imagem-topo-jquery {
+	width: 300%;
+	margin-left: 450px ;
+}
+
+#imagem-topo-typescript {
+	width: 400%;
+	margin-left: 450px ;
+}
+
+#imagem-topo-elm {
+	width: 300%;
+	margin-top: 100px;
+	margin-left: 450px ;
+}
+
+#titulo {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#dados-tabela {
+	margin-left: 430px;
+	padding-top: 70px;
+}
+
+#rodape {
+	text-align: center;
+	border: 1px solid grey;
+	padding: 30px;
+	background: grey;
+	margin-top: 50px;
+	
+}
+
+.area-principal{
+	padding-left: 20px;
+	background-color: #fff;
+}
+
+.cor {
+	color: orangered;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.links {
+	margin: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	background: orange;
+	color: rgb(237, 13, 13);
+}
+
+.data-postagem {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.sub-titulo {
+	font-weight: bold;
+}
+
+.cor-span {
+	color: rgb(232, 15, 15);
+}
+.css {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;	
+	font-size: 2em;
+}
+
+
+
+h3 {
+	text-align: center;	
+	text-decoration: underline;
+} 
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #fff;
+	background-color: orangered;
+}
+
+img {
+	margin-top: -40px;
+	margin-left:3px;
+	width: 8%;
+	float:left;
+}
+
+ol {
+	margin: 25px;
+	margin-left: 550px	;
+	font-size: 1em;
+}
+
+p {
+	text-align: left;
+	margin-top: 100px;
+}
+
+.p-dev {
+	margin-left: 20px;
+}
